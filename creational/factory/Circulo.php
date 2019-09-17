@@ -3,7 +3,7 @@ include_once 'Figura.php';
 
 class Circulo implements Figura {
     
-    public $radio;
+    public $radio;    
 
     public function __construct($radio){
         $this->radio = $radio;

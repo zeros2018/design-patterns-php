@@ -5,7 +5,11 @@ class Cuadrado implements Figura {
     
     public $lado;
 
-    public function __construct($lado){
+    public function __construct(){
+          
+    }
+
+    public function setLado($lado){
         $this->lado = $lado;
     }
 
